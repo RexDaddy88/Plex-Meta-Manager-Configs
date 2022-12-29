@@ -11,6 +11,7 @@ collections:
     sync_mode: sync
     mdblist_list: https://mdblist.com/lists/zluckytraveler/top-100-movies-hduhd/
     limit: 100
+    radarr_add_missing: true
     visible_library: true
     visible_shared: true
     visible_home: true
