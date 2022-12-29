@@ -11,6 +11,7 @@ collections:
     sync_mode: sync
     tmdb_trending_daily: 50
     limit: 50
+    radarr_add_missing: true
     visible_library: true
     visible_shared: true
     visible_home: true
