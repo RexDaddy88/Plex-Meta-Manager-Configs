@@ -283,16 +283,6 @@ collections:
         - Family
       validate: false
       
-  Shorts:
-    url_poster: https://raw.githubusercontent.com/zluckytraveler/Plex-Meta-Manager-Configs/master/zluckytraveler/Posters/Genres/Matching/Short.png
-    sort_title: 07-Shorts
-    smart_filter:
-      sort_by: title.asc
-      any:
-        genre:
-        - Short Film
-        - Short
-      
   Soap Opera:
     url_poster: https://raw.githubusercontent.com/zluckytraveler/Plex-Meta-Manager-Configs/master/zluckytraveler/Posters/Genres/Matching/Soap%20Opera.png
     sort_title: 07-Soap Opera
@@ -308,6 +298,18 @@ collections:
       sort_by: title.asc
       all:
         genre: Sport
+        genre.not:
+        - Animation
+        - Children
+      validate: false
+            
+  Stand-Up:
+    url_poster: https://raw.githubusercontent.com/zluckytraveler/Plex-Meta-Manager-Configs/master/zluckytraveler/Posters/Genres/Matching/Stand Up.png
+    sort_title: 07-Stand Up
+    smart_filter:
+      sort_by: title.asc
+      all:
+        genre: Stand Up
         genre.not:
         - Animation
         - Children
