@@ -8,7 +8,7 @@ templates:
       - movie
     tmdb_collection_details: <<collection>>
     tmdb_movie: <<movie>>
-    sort_title: +01_<<collection_name>>
+    sort_title: !039_<<collection_name>>
     collection_order: custom
     radarr_add_missing: true
     visible_shared: true
