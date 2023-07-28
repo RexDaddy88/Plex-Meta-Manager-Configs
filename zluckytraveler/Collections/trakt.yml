@@ -1,0 +1,40 @@
+######################################################
+#                Movie Collections                   #
+######################################################
+templates:
+  collection:
+    optional:
+      - collection
+      - movie
+    tmdb_collection_details: <<collection>>
+    tmdb_movie: <<movie>>
+    sort_title: +01_<<collection_name>>
+    collection_order: custom
+    radarr_add_missing: true
+    visible_shared: true
+
+collections:
+  Baseball Movies:
+    template: {name: collection}
+    trakt_list: https://trakt.tv/users/pterisaur/lists/baseball-24253132?sort=popularity,asc
+    url_poster: https://i.imgur.com/TJr35Au.jpeg
+
+  Hockey Movies:
+    template: {name: collection}
+    trakt_list: https://trakt.tv/users/pterisaur/lists/hockey-24253407?sort=popularity,asc
+    url_poster: https://i.imgur.com/TJr35Au.jpeg
+
+  IMDb's Top Sport Movies:
+    template: {name: collection}
+    trakt_list: https://trakt.tv/users/irishstevo/lists/imdb-s-top-sport-movies?sort=rank,asc
+    url_poster: https://i.imgur.com/TJr35Au.jpeg
+
+  Top 100 Kids & Family Movies:
+    template: {name: collection}
+    trakt_list: https://trakt.tv/users/giladg/lists/rotten-tomatoes-top-100-kids-family-movies?sort=rank,desc
+    url_poster: https://i.imgur.com/TJr35Au.jpeg
+
+  Apocalyptic & Dystopian Films:
+    template: {name: collection}
+    trakt_list: https://trakt.tv/users/crims7392/lists/apocalyptic-dystopian-films?sort=rank,asc
+    url_poster: https://i.imgur.com/TJr35Au.jpeg
