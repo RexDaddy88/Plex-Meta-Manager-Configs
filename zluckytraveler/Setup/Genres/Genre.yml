@@ -217,14 +217,6 @@ collections:
         - Family
       validate: false
       
-  News:
-    url_poster: https://raw.githubusercontent.com/RexDaddy88/Plex-Meta-Manager-Configs/master/zluckytraveler/Posters/Genres/Matching/News.png
-    sort_title: 07-News
-    smart_filter:
-      sort_by: title.asc
-      all:
-        genre: News
-      
   Noir:
     url_poster: https://raw.githubusercontent.com/RexDaddy88/Plex-Meta-Manager-Configs/master/zluckytraveler/Posters/Genres/Matching/Noir.png
     sort_title: 07-Noir
@@ -283,14 +275,6 @@ collections:
         - Family
       validate: false
       
-  Soap Opera:
-    url_poster: https://raw.githubusercontent.com/RexDaddy88/Plex-Meta-Manager-Configs/master/zluckytraveler/Posters/Genres/Matching/Soap%20Opera.png
-    sort_title: 07-Soap Opera
-    smart_filter:
-      sort_by: title.asc
-      all:
-        genre: Soap
-      
   Sports:
     url_poster: https://raw.githubusercontent.com/RexDaddy88/Plex-Meta-Manager-Configs/master/zluckytraveler/Posters/Genres/Matching/Sports.png
     sort_title: 07-Sports
@@ -309,15 +293,6 @@ collections:
     smart_filter:
       sort_by: title.asc
       label: Comedy Special
-      
-  Talk Show:
-    url_poster: https://raw.githubusercontent.com/RexDaddy88/Plex-Meta-Manager-Configs/master/zluckytraveler/Posters/Genres/Matching/Talk%20Show.png
-    sort_title: 07-Talk Show
-    smart_filter:
-      sort_by: title.asc
-      any:
-        genre: 
-        - Talk Show
       
   Thriller:
     url_poster: https://raw.githubusercontent.com/RexDaddy88/Plex-Meta-Manager-Configs/master/zluckytraveler/Posters/Genres/Matching/Thriller.png
