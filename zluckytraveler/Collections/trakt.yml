@@ -17,12 +17,12 @@ collections:
   Baseball Movies:
     template: {name: collection}
     trakt_list: https://trakt.tv/users/pterisaur/lists/baseball-24253132?sort=popularity,asc
-    url_poster: https://github.com/RexDaddy88/Plex-Meta-Manager-Configs/blob/master/zluckytraveler/Posters/baseball.jpg?raw=true
+    url_poster: https://raw.githubusercontent.com/RexDaddy88/Plex-Meta-Manager-Configs/master/zluckytraveler/Posters/Genres/Matching/baseball.png
 
   Hockey Movies:
     template: {name: collection}
     trakt_list: https://trakt.tv/users/pterisaur/lists/hockey-24253407?sort=popularity,asc
-    url_poster: https://github.com/RexDaddy88/Plex-Meta-Manager-Configs/blob/master/zluckytraveler/Posters/hockey.jpg?raw=true
+    url_poster: https://raw.githubusercontent.com/RexDaddy88/Plex-Meta-Manager-Configs/master/zluckytraveler/Posters/Genres/Matching/hockey.png
 
   IMDb's Top Sport Movies:
     template: {name: collection}
@@ -37,4 +37,4 @@ collections:
   Apocalyptic & Dystopian Films:
     template: {name: collection}
     trakt_list: https://trakt.tv/users/crims7392/lists/apocalyptic-dystopian-films?sort=rank,asc
-    url_poster: https://github.com/RexDaddy88/Plex-Meta-Manager-Configs/blob/master/zluckytraveler/Posters/Post-Apocalypse.jpg?raw=true
+    url_poster: https://raw.githubusercontent.com/RexDaddy88/Plex-Meta-Manager-Configs/master/zluckytraveler/Posters/Genres/Matching/Post-Apocalypse.png
