@@ -308,12 +308,7 @@ collections:
     sort_title: 07-Stand Up
     smart_filter:
       sort_by: title.asc
-      all:
-        genre: Stand Up
-        genre.not:
-        - Animation
-        - Children
-      validate: false
+      label: Comedy Special
       
   Talk Show:
     url_poster: https://raw.githubusercontent.com/RexDaddy88/Plex-Meta-Manager-Configs/master/zluckytraveler/Posters/Genres/Matching/Talk%20Show.png
