@@ -304,7 +304,7 @@ collections:
       validate: false
             
   Stand-Up:
-    url_poster: https://raw.githubusercontent.com/RexDaddy88/Plex-Meta-Manager-Configs/master/zluckytraveler/Posters/Genres/Matching/Stand Up.png
+    url_poster: https://raw.githubusercontent.com/RexDaddy88/Plex-Meta-Manager-Configs/master/zluckytraveler/Posters/Genres/Matching/Stand%20Up.png
     sort_title: 07-Stand Up
     smart_filter:
       sort_by: title.asc
