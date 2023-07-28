@@ -27,12 +27,12 @@ collections:
   IMDb's Top Sport Movies:
     template: {name: collection}
     trakt_list: https://trakt.tv/users/irishstevo/lists/imdb-s-top-sport-movies?sort=rank,asc
-    url_poster: https://raw.githubusercontent.com/RexDaddy88/Plex-Meta-Manager-Configs/master/zluckytraveler/Posters/Genres/Matching/Sports2.jpeg
+    url_poster: https://raw.githubusercontent.com/RexDaddy88/Plex-Meta-Manager-Configs/master/zluckytraveler/Posters/Genres/Matching/Sports2.png
 
   Top 100 Kids & Family Movies:
     template: {name: collection}
     trakt_list: https://trakt.tv/users/giladg/lists/rotten-tomatoes-top-100-kids-family-movies?sort=rank,desc
-    url_poster: https://raw.githubusercontent.com/RexDaddy88/Plex-Meta-Manager-Configs/master/zluckytraveler/Posters/Genres/Matching/Family.jpg
+    url_poster: https://raw.githubusercontent.com/RexDaddy88/Plex-Meta-Manager-Configs/master/zluckytraveler/Posters/Genres/Matching/Family2.pmg
 
   Apocalyptic & Dystopian Films:
     template: {name: collection}
