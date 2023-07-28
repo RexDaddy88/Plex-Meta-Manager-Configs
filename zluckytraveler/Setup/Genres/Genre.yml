@@ -196,7 +196,7 @@ collections:
       validate: false
       
   Musical:
-    url_poster: https://raw.githubusercontent.com/RexDaddy88/Plex-Meta-Manager-Configs/master/zluckytraveler/Posters/Genres/Matching/Musical.png
+    url_poster: https://raw.githubusercontent.com/RexDaddy88/Plex-Meta-Manager-Configs/master/zluckytraveler/Posters/Genres/Matching/Musicals.png
     sort_title: 07-Musical
     smart_filter:
       sort_by: title.asc
@@ -332,7 +332,7 @@ collections:
       validate: false
       
   Western:
-    url_poster: https://raw.githubusercontent.com/RexDaddy88/Plex-Meta-Manager-Configs/master/zluckytraveler/Posters/Genres/Matching/Western.png
+    url_poster: https://raw.githubusercontent.com/RexDaddy88/Plex-Meta-Manager-Configs/master/zluckytraveler/Posters/Genres/Matching/Westerns.png
     sort_title: 07-Westerns
     smart_filter:
       sort_by: title.asc
