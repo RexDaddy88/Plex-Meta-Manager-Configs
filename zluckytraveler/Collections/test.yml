@@ -25,24 +25,14 @@ templates:
     trakt_list: <<trakt_list_<<key>>>>
     mdblist_list: <<mdblist_list_<<key>>>>
 
-collections:
-  Universe Collections:
-    template:
-      - name: separator
-        separator: universe
-        key_name: Universe
-        translation_key: separator
-
 dynamic_collections:
   Trakt Liked Lists:          # This name is the mapping name
     type: trakt_liked_lists
     template:
-      - universe
       - arr
       - custom
       - shared
-      image:
-        default: universe/<<key>>
+      
 
 
 
