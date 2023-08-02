@@ -13,6 +13,7 @@ templates:
 dynamic_collections:
   Trakt Liked Lists:          # This name is the mapping name
     type: trakt_liked_lists
+    collection_order: content_rating.asc
     smart_filter:
       sort_by: content_rating.asc
 
