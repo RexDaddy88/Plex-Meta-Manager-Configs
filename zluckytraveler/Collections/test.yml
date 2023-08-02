@@ -1,62 +1,48 @@
 ##############################################################################
-#                           Franchise Collections                            #
+#                            Universe Collections                            #
 #                 Created by Yozora, Bullmoose20, & Sohjiro                  #
 #          EDITING THIS FILE MAY CAUSE PULLING NEW UPDATES TO FAIL           #
-#      https://metamanager.wiki/en/latest/defaults/movie/franchise.html      #
+#       https://metamanager.wiki/en/latest/defaults/both/universe.html       #
 ##############################################################################
 
+external_templates:
+  pmm: templates
+  template_variables:
+    collection_section: "038"
+
 templates:
-  collection:
     default:
-      sync_mode: sync
-      sync_mode_<<key>>: <<sync_mode>>
-      collection_order: release
-      minimum_items: 2
+      mdblist_list_<<key>>: <<mdblist_list>>
       name_mapping_<<key>>: <<name_mapping>>
-      movie_<<key>>: <<movie>>
-      pre: "_"
-      order_<<key>>: ""
-      sort_title: "!<<collection_section>><<pre>><<order_<<key>>>><<title>>"
-      sort_title_<<key>>: <<sort_title>>
-      radarr_add_missing_<<key>>: <<radarr_add_missing>>
-      radarr_folder_<<key>>: <<radarr_folder>>
-      radarr_tag_<<key>>: <<radarr_tag>>
-      item_radarr_tag_<<key>>: <<item_radarr_tag>>
-      radarr_monitor_<<key>>: <<radarr_monitor>>
-      collection_order_<<key>>: <<collection_order>>
+      minimum_items: 2
     optional:
-      - name_<<key>>
-      - summary_<<key>>
-      - movie
       - name_mapping
-      - build_collection
-      - collection_mode
-      - collection_section
-      - radarr_add_missing
-      - radarr_folder
-      - radarr_tag
-      - item_radarr_tag
-      - radarr_monitor
-      - url_poster_<<key>>
-    name: <<name_<<key>>>>
-    summary: <<summary_<<key>>>>
-    cache_builders: 1
+      - trakt_list_<<key>>
+      - imdb_list_<<key>>
     minimum_items: <<minimum_items>>
-    url_poster: <<url_poster_<<key>>>>
-    tmdb_collection_details: <<value>>
-    tmdb_movie: <<movie_<<key>>>>
     name_mapping: <<name_mapping_<<key>>>>
-    sort_title: <<sort_title_<<key>>>>
-    build_collection: <<build_collection>>
-    sync_mode: <<sync_mode_<<key>>>>
-    collection_mode: <<collection_mode>>
-    collection_order: <<collection_order_<<key>>>>
-    radarr_add_missing: <<radarr_add_missing_<<key>>>>
-    radarr_folder: <<radarr_folder_<<key>>>>
-    radarr_tag: <<radarr_tag_<<key>>>>
-    item_radarr_tag: <<item_radarr_tag_<<key>>>>
-    radarr_monitor: <<radarr_monitor_<<key>>>>
+    imdb_list: <<imdb_list_<<key>>>>
+    trakt_list: <<trakt_list_<<key>>>>
+    mdblist_list: <<mdblist_list_<<key>>>>
+
+collections:
+  Universe Collections:
+    template:
+      - name: separator
+        separator: universe
+        key_name: Universe
+        translation_key: separator
 
 dynamic_collections:
   Trakt Liked Lists:          # This name is the mapping name
     type: trakt_liked_lists
+    template:
+      - universe
+      - arr
+      - custom
+      - shared
+      image:
+        default: universe/<<key>>
+
+
+
