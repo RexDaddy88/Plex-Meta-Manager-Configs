@@ -5,17 +5,17 @@
 #       https://metamanager.wiki/en/latest/defaults/both/universe.html       #
 ##############################################################################
 
-templates:
-  Trakt Liked Lists collection:
-    smart_filter:
-      sort_by: content_rating.asc
-
 dynamic_collections:
   Trakt Liked Lists:          # This name is the mapping name
     type: trakt_liked_lists
-    collection_order: content_rating.asc
-    smart_filter:
-      sort_by: content_rating.asc
 
+collections:
+  Family Movies:
+    trakt_list: https://trakt.tv/users/hdlists/lists/family-movies-top-rated-from-1980-to-today
+    sync_mode: sync
+    smart_label: critic_rating.desc
+    sort_title: --Family Movies
+    summary: A collection consisting of the most top rated family movies from the 80's onward, sorted by critical acclaim.
+    url_poster: https://i.imgur.com/OK9pl6Y.jpg
 
 
