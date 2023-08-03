@@ -4,6 +4,9 @@
 #          EDITING THIS FILE MAY CAUSE PULLING NEW UPDATES TO FAIL           #
 #       https://metamanager.wiki/en/latest/defaults/both/universe.html       #
 ##############################################################################
+templates:
+  Trakt Liked Lists:
+    url_poster: zluckytraveler/Posters<<key_name>>.jpg
 
 dynamic_collections:
   Trakt Liked Lists:          # This name is the mapping name
