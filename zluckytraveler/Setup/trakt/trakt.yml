@@ -4,25 +4,32 @@ collections:
     sort_title: 001-Baseball
     collection_order: content_rating.asc
     sync_mode: sync
-    trakt_list: https://trakt.tv/users/nschuck/lists/baseball
+    trakt_list: https://trakt.tv/users/pterisaur/lists/baseball-24253132
     
   Hockey Films:
     url_poster: https://raw.githubusercontent.com/RexDaddy88/Plex-Meta-Manager-Configs/master/zluckytraveler/Posters/hockey.jpg
     sort_title: 001-Hockey
     collection_order: content_rating.asc
     sync_mode: sync
-    trakt_list: https://trakt.tv/users/nschuck/lists/hockey
+    trakt_list: https://trakt.tv/users/pterisaur/lists/hockey-24253407
     
   Top Sports Movies:
     url_poster: https://raw.githubusercontent.com/RexDaddy88/Plex-Meta-Manager-Configs/master/zluckytraveler/Posters/Sports2.png
     sort_title: 001-sports
     collection_order: content_rating.asc
     sync_mode: sync
-    trakt_list: https://trakt.tv/users/nschuck/lists/imdb-s-top-sport-movies
+    trakt_list: https://trakt.tv/users/irishstevo/lists/imdb-s-top-sport-movies
     
   Top Family Movies:
     url_poster: https://raw.githubusercontent.com/RexDaddy88/Plex-Meta-Manager-Configs/master/zluckytraveler/Posters/Family1.png
     sort_title: 001-topfamily
     collection_order: content_rating.asc
     sync_mode: sync
-    trakt_list: https://trakt.tv/users/nschuck/lists/rotten-tomatoes-top-100-kids-family-movies
+    trakt_list: https://trakt.tv/users/giladg/lists/rotten-tomatoes-top-100-kids-family-movies
+
+  Post Apocalypic:
+    url_poster: https://raw.githubusercontent.com/RexDaddy88/Plex-Meta-Manager-Configs/master/zluckytraveler/Posters/Post-Apocalypse.jpg
+    sort_title: 07-Post
+    collection_order: title.asc
+    sync_mode: sync
+    trakt_list: https://trakt.tv/users/crims7392/lists/apocalyptic-dystopian-films
