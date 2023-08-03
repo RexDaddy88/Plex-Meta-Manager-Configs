@@ -2,27 +2,27 @@ collections:
   Baseball Films:
     url_poster: https://raw.githubusercontent.com/RexDaddy88/Plex-Meta-Manager-Configs/master/zluckytraveler/Posters/baseball.jpg
     sort_title: 001-Baseball
-    collection_order: rank.asc
+    collection_order: content_rating.asc
     sync_mode: sync
     trakt_list: https://trakt.tv/users/nschuck/lists/baseball
     
   Hockey Films:
     url_poster: https://raw.githubusercontent.com/RexDaddy88/Plex-Meta-Manager-Configs/master/zluckytraveler/Posters/hockey.jpg
     sort_title: 001-Hockey
-    collection_order: rank.asc
+    collection_order: content_rating.asc
     sync_mode: sync
     trakt_list: https://trakt.tv/users/nschuck/lists/hockey
     
   Top Sports Movies:
     url_poster: https://raw.githubusercontent.com/RexDaddy88/Plex-Meta-Manager-Configs/master/zluckytraveler/Posters/Sports2.png
     sort_title: 001-sports
-    collection_order: rank.asc
+    collection_order: content_rating.asc
     sync_mode: sync
     trakt_list: https://trakt.tv/users/nschuck/lists/imdb-s-top-sport-movies
     
   Top Family Movies:
     url_poster: https://raw.githubusercontent.com/RexDaddy88/Plex-Meta-Manager-Configs/master/zluckytraveler/Posters/Family1.png
     sort_title: 001-topfamily
-    collection_order: rank.asc
+    collection_order: content_rating.asc
     sync_mode: sync
     trakt_list: https://trakt.tv/users/nschuck/lists/rotten-tomatoes-top-100-kids-family-movies
