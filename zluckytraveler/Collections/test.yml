@@ -13,7 +13,7 @@ dynamic_collections:
     type: trakt_liked_lists
     template_variables:
       image:
-        default: zluckytraveler/Posters/<<key_name>>
+        default: zluckytraveler/Posters/<<key_name>>.jpg
 
 
 
