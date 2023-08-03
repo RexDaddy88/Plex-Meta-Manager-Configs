@@ -6,12 +6,14 @@
 ##############################################################################
 templates:
   Trakt Liked Lists:
-    url_poster: zluckytraveler/Posters<<key_name>>.jpg
+    url_poster: zluckytraveler/Posters/<<key_name>>.jpg
 
 dynamic_collections:
   Trakt Liked Lists:          # This name is the mapping name
     type: trakt_liked_lists
-
+    template_variables:
+      image:
+        default: zluckytraveler/Posters/<<key_name>>
 
 
 
