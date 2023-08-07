@@ -40,7 +40,7 @@ collections:
     radarr_add_missing: true
 
   UFC Events:
-    sort_title: 001-UFC
+    sort_title: !001-UFC
     mdblist_list: 
       url: https://mdblist.com/lists/rreveley/mma-ufc?sort=released&sortorder=asc&q_current_page=0
       sort_by: released.desc
