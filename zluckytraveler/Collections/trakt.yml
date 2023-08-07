@@ -38,3 +38,13 @@ collections:
     template: {name: collection}
     trakt_list: https://trakt.tv/users/crims7392/lists/apocalyptic-dystopian-films?sort=rank,asc
     url_poster: https://raw.githubusercontent.com/RexDaddy88/Plex-Meta-Manager-Configs/master/zluckytraveler/Posters/Genres/Matching/Post-Apocalypse.png
+
+  UFC Events:
+    template: {name: collection}
+    mdblist_list: 
+      url: https://mdblist.com/lists/rreveley/mma-ufc?sort=released&sortorder=asc&q_current_page=0
+      sort_by: released.desc
+    collection_mode: hide_items
+    sync_mode: sync
+
+
