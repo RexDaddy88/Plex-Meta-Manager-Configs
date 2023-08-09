@@ -8,11 +8,11 @@ collections:
     mdblist_list: 
       url: https://mdblist.com/lists/zluckytraveler/top-100-movies-hduhd/
       sort_by: score.asc
+      limit: 100
     url_poster: https://raw.githubusercontent.com/zluckytraveler/Plex-Meta-Manager-Configs/master/zluckytraveler/Posters/Top%20100/Top%20100.png
     sort_title: 02-Top 100
     collection_order: custom
     sync_mode: sync
-    limit: 100
     radarr_add_missing: true
     visible_library: true
     visible_shared: true
