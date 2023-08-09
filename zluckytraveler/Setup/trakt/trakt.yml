@@ -12,7 +12,7 @@ collections:
     sort_title: !000-Hockey
     collection_order: content_rating.asc
     sync_mode: sync
-    trakt_list: https://trakt.tv/users/pterisaur/lists/hockey-2425340    
+    trakt_list: https://trakt.tv/users/pterisaur/lists/hockey-24253407
     radarr_add_missing: true
     
   Top Sports Movies:
