@@ -40,6 +40,7 @@ collections:
     radarr_add_missing: true
 
   UFC Events:
+    url_poster: https://raw.githubusercontent.com/RexDaddy88/Plex-Meta-Manager-Configs/master/zluckytraveler/Posters/UFC.jpg
     sort_title: !001-UFC
     mdblist_list: 
       url: https://mdblist.com/lists/rreveley/mma-ufc?sort=released&sortorder=asc&q_current_page=0
