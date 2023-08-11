@@ -47,5 +47,5 @@ collections:
       sort_by: released.desc
     collection_order: custom
     collection_mode: hide_items
-    sync_mode: sync
+    sync_mode: append
     radarr_add_missing: true
