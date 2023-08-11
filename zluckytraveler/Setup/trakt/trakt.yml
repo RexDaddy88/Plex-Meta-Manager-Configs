@@ -42,8 +42,8 @@ collections:
   UFC Events:
     url_poster: https://raw.githubusercontent.com/RexDaddy88/Plex-Meta-Manager-Configs/master/zluckytraveler/Posters/UFC.jpg
     sort_title: !001-UFC
-    trakt_list:
-      url: https://trakt.tv/users/quickshot_ow/lists/ufc-events
+    mdblist_list:
+      url: https://mdblist.com/lists/quickshot_ow/ufc-events
       sort_by: released.desc
     collection_order: custom
     collection_mode: hide_items
