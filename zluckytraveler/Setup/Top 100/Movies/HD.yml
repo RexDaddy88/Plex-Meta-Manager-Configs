@@ -6,7 +6,7 @@
 collections:
   Top 100 Movies:
     mdblist_list: 
-      url: https://mdblist.com/lists/zluckytraveler/top-100-movies-hduhd/
+      url: https://mdblist.com/lists/zluckytraveler/top-100-movies-hduhddv
       sort_by: score.desc
       limit: 100
     url_poster: https://raw.githubusercontent.com/zluckytraveler/Plex-Meta-Manager-Configs/master/zluckytraveler/Posters/Top%20100/Top%20100.png
