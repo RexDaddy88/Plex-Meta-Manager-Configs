@@ -51,6 +51,7 @@ collections:
     radarr_add_missing: true
 
   WWE Events:
+    url_poster: https://raw.githubusercontent.com/RexDaddy88/Plex-Meta-Manager-Configs/master/zluckytraveler/Posters/WWE.png    
     sort_by: released.desc
     plex_search:
       any:
