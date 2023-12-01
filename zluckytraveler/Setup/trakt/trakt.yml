@@ -57,4 +57,4 @@ collections:
         title.begins:
           - "WWE"
           - "NXT"
-        sort_by: released.desc
+        sort_by: release.desc
