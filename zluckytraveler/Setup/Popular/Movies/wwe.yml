@@ -1,0 +1,19 @@
+######################################################
+#                  WWE - HD MOVIES                #
+######################################################
+
+
+collections:
+  Popular Movies:
+    url_poster: https://raw.githubusercontent.com/zluckytraveler/Plex-Meta-Manager-Configs/master/zluckytraveler/Posters/Popular/Popular%20Movies.png
+    sort_title: 01-WWE
+    collection_order: custom
+    sync_mode: sync
+    plex_search:
+      any:
+        title.begins: WWE
+    limit: 50
+    radarr_add_missing: false
+    visible_library: true
+    visible_shared: true
+    visible_home: true
