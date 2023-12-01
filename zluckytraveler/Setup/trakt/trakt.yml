@@ -51,8 +51,8 @@ collections:
     radarr_add_missing: true
 
   WWE Events:
-    sync_mode: sync
     plex_search:
       any:
-        title.begins: WWE
-        title.begins: NXT
+        title.begins:
+          - "WWE"
+          - "NXT"
