@@ -50,10 +50,9 @@ collections:
     sync_mode: append
     radarr_add_missing: true
 
-  WWE Pay Per View Events:
+  WWE Events:
     plex_search:
       any:
-        sort_by: release.desc
         title.begins: WWE
         title.begins: NXT
-    collection_mode: hide_items
+    build_collection: true     
