@@ -47,11 +47,11 @@ collections:
     sync_mode: sync
 
   WWE Pay Per View Events:
+    template: {name: collection}
     plex_search:
-      any:
-        sort_by: release.desc
-        title.begins: WWE
-        title.beings: NXT
+      sort_by: release.desc
+      title.begins: WWE
+      title.begins: NXT
     collection_mode: hide_items
 
 
