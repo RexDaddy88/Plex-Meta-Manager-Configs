@@ -41,7 +41,7 @@ collections:
 
   UFC Events:
     url_poster: https://raw.githubusercontent.com/RexDaddy88/Plex-Meta-Manager-Configs/master/zluckytraveler/Posters/UFC.jpg
-    sort_title: !001-UFC
+    sort_title: !0010-UFC
     mdblist_list:
       url: https://mdblist.com/lists/quickshot_ow/ufc-events
       sort_by: released.desc
@@ -51,7 +51,8 @@ collections:
     radarr_add_missing: true
 
   WWE Events:
-    url_poster: https://raw.githubusercontent.com/RexDaddy88/Plex-Meta-Manager-Configs/master/zluckytraveler/Posters/WWE.png    
+    url_poster: https://raw.githubusercontent.com/RexDaddy88/Plex-Meta-Manager-Configs/master/zluckytraveler/Posters/WWE.png  
+    sort_title: !0011-WWE
     plex_search:
       sort_by: release.desc
       any:
