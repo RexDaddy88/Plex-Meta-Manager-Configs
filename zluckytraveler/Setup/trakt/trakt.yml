@@ -55,7 +55,7 @@ collections:
     sort_title: !0011-WWE
     collection_mode: hide_items
     plex_search:
-      sort_by: release.desc
+      sort_by: release.asc
       any:
         title.begins:
           - "WWE"
