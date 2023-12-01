@@ -49,3 +49,11 @@ collections:
     collection_mode: hide_items
     sync_mode: append
     radarr_add_missing: true
+
+  WWE Pay Per View Events:
+    plex_search:
+      any:
+        sort_by: release.desc
+        title.begins: WWE
+        title.begins: NXT
+    collection_mode: hide_items
