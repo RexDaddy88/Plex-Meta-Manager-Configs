@@ -52,9 +52,9 @@ collections:
 
   WWE Events:
     url_poster: https://raw.githubusercontent.com/RexDaddy88/Plex-Meta-Manager-Configs/master/zluckytraveler/Posters/WWE.png    
+    sort_by: release.desc
     plex_search:
       any:
         title.begins:
           - "WWE"
           - "NXT"
-        sort_by: release.desc
