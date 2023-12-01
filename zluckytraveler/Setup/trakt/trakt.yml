@@ -53,6 +53,7 @@ collections:
   WWE Events:
     url_poster: https://raw.githubusercontent.com/RexDaddy88/Plex-Meta-Manager-Configs/master/zluckytraveler/Posters/WWE.png  
     sort_title: !0011-WWE
+    collection_mode: hide_items
     plex_search:
       sort_by: release.desc
       any:
