@@ -51,6 +51,7 @@ collections:
     radarr_add_missing: true
 
   WWE Events:
+    sort_by: released.desc
     plex_search:
       any:
         title.begins:
