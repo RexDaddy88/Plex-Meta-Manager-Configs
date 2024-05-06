@@ -37,7 +37,7 @@ collections:
     collection_order: title.asc
     sync_mode: sync
     trakt_list: https://trakt.tv/users/crims7392/lists/apocalyptic-dystopian-films
-    radarr_add_missing: true
+    radarr_add_missing: false
 
   UFC Events:
     url_poster: https://raw.githubusercontent.com/RexDaddy88/Plex-Meta-Manager-Configs/master/zluckytraveler/Posters/UFC.jpg
