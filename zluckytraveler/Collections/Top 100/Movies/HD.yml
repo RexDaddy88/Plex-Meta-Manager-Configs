@@ -10,7 +10,7 @@ collections:
     sort_title: 02-Top 100
     sync_mode: sync
     mdblist_list: https://mdblist.com/lists/zluckytraveler/top-100-movies-hduhd/
-    sort_by: rating.desc
+    sort_by: rating.asc
     limit: 100
     visible_library: true
     visible_shared: true
