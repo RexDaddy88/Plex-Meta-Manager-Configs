@@ -8,9 +8,9 @@ collections:
     schedule: monthly(1)
     url_poster: https://raw.githubusercontent.com/zluckytraveler/Plex-Meta-Manager-Configs/master/zluckytraveler/Posters/Top%20100/Top%20100.png
     sort_title: 02-Top 100
-    collection_order: rating
     sync_mode: sync
     mdblist_list: https://mdblist.com/lists/zluckytraveler/top-100-movies-hduhd/
+    sort_by: rating.desc
     limit: 100
     visible_library: true
     visible_shared: true
