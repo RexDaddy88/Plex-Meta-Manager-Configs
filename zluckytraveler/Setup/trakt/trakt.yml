@@ -5,7 +5,7 @@ collections:
     collection_order: content_rating.asc
     sync_mode: sync
     trakt_list: https://trakt.tv/users/nschuck/lists/baseball
-    radarr_add_missing: true
+    radarr_add_missing: false
     
   Hockey Films:
     url_poster: https://raw.githubusercontent.com/RexDaddy88/Plex-Meta-Manager-Configs/master/zluckytraveler/Posters/hockey.jpg
@@ -13,7 +13,7 @@ collections:
     collection_order: content_rating.asc
     sync_mode: sync
     trakt_list: https://trakt.tv/users/pterisaur/lists/hockey-24253407
-    radarr_add_missing: true
+    radarr_add_missing: false
     
   Top Sports Movies:
     url_poster: https://raw.githubusercontent.com/RexDaddy88/Plex-Meta-Manager-Configs/master/zluckytraveler/Posters/Sports2.png
@@ -21,7 +21,7 @@ collections:
     collection_order: content_rating.asc
     sync_mode: sync
     trakt_list: https://trakt.tv/users/nschuck/lists/imdb-s-top-sport-movies
-    radarr_add_missing: true
+    radarr_add_missing: false
     
   Top Family Movies:
     url_poster: https://raw.githubusercontent.com/RexDaddy88/Plex-Meta-Manager-Configs/master/zluckytraveler/Posters/Family1.png
@@ -29,7 +29,7 @@ collections:
     collection_order: content_rating.asc
     sync_mode: sync
     trakt_list: https://trakt.tv/users/giladg/lists/rotten-tomatoes-top-100-kids-family-movies
-    radarr_add_missing: true
+    radarr_add_missing: false
 
   Post Apocalypic:
     url_poster: https://raw.githubusercontent.com/RexDaddy88/Plex-Meta-Manager-Configs/master/zluckytraveler/Posters/Post-Apocalypse.jpg
